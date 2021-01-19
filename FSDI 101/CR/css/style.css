@@ -1,0 +1,261 @@
+
+*{
+    margin:0;
+}
+body{
+    background-color:rgb(231,231,231);
+    font-family: 'Roboto', sans-serif;
+}
+
+h2,h3{
+    text-align: center;
+    margin:0 0 10px 0;
+}
+h3{
+    font-size: 25px;
+    font-weight: 300;
+    color: #027683;
+    margin:40px 0 40px 0; /*top right bottom left*/
+}
+p{
+    line-height: 2;
+}
+
+/* Nav */
+nav{
+    background-color: #d8d6d6;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+nav a{
+    color:rgb(32,32,32);
+    font-size:  18px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+/*header*/
+header{
+    height: 400px;
+    background-image: url("../img/hero.jpg");
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    background-color: #027683;
+    color:white;
+    padding:8px;
+    margin-top: 10px;
+    font-weight: 700px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/*main : services section*/
+.container{
+    background-color: white;
+    margin-right:auto;
+    max-width: 1200px;
+    padding:30px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-top:20px;
+    margin-left:auto;
+}
+
+.icon-container{
+    background-color:#e4d50b;
+    width: 100px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+.icon-container i {
+    font-size:30px;
+}
+.icon-container1{
+    margin:0;
+    padding:0;
+}
+.icon-container1 img{
+    border-radius: 50%;
+    margin:0;
+    width: 100px;
+    height: 100px;
+}
+
+
+.flex-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.service-box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:40px;
+}
+
+form{
+    background-color: gray;
+    border-radius: 10px;
+    max-width: 800px;
+    color:white;
+    margin: 0 auto; /*top-bottom left-right*/
+    padding:20px;
+    
+}
+
+input{
+    width:100%;
+    height:25px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+}
+
+label {
+    font-size: 18px;
+}
+
+.contact-container{
+ text-decoration: none;
+ padding:auto;
+ margin:auto;
+}
+
+.contact-container .form-picture img{
+    width: 150px;
+    height: 150px;
+}
+
+.profilename{
+    text-decoration: none;
+    
+}
+
+a.profilename:visited{ /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_link_more2*/
+    color: #027683;
+}
+
+.picture{
+    display:flex;
+    flex-direction: column;
+    margin:5px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.picture a{
+    text-decoration: none;
+}
+.picture p{
+    text-transform: capitalize;    
+    line-height: 1;
+    font-size: 15px;
+    
+}
+a.picture:link{
+    color: white;
+}
+a.picture:visited{
+    color:rgb(236, 221, 221);
+}
+a.picture:hover{
+    color:black;
+}
+.form-picture{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+a.contact-link:link{
+    color:white;
+    text-decoration: none;
+}
+a.contact-link:visited{
+    color:white;
+}
+
+.icon-container-contact{
+    background-color:#bdb115;
+    width: 30px;
+    height:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin:10px;
+}
+
+
+.profile-container{
+    border-radius: 50%;
+}
+
+.contact-row-container{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    
+}
+
+.contact-row-container p{
+    font-size: 20px;
+}
+
+.contact-container-form{
+    max-width: 550px;
+    border: 6px rgb(94, 94, 109) solid;
+}
+
+
+.service-box-clients{
+    display:block;
+    max-width: 300px;
+}
+
+.icon-container-clients img{
+    width: 100px;
+    height: 100px;
+    display:flex;
+    margin: 0 auto 30px auto;
+}
+.service-box-clients p{
+    text-align: center;
+}
+.service-box-clients h3{
+    margin-top: 50px;
+}
+.container h2{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+.flex-container-client{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 0;
+    padding-top: 0;
+}
