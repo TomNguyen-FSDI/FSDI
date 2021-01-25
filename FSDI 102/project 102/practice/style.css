@@ -1,0 +1,85 @@
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+}
+
+td, th{
+    border:1px solid black;
+    text-align: center;
+    height: 50px; 
+    padding: 0 30px;  
+}
+
+tr{
+    background-color: white;
+}
+
+tr:hover{
+    background-color:pink;
+}
+.flex{
+    background-color: green;
+    color:yellowgreen;
+    border: 1px solid greenyellow;
+    height: 50px;
+    width:100px;
+    text-align: center;
+    padding:20px;
+}
+.flex-container{
+    display:flex;
+    flex-direction:row;/*row-reverse*/
+    justify-content: space-evenly;
+    border: 1px solid red;
+    flex-wrap:wrap;
+}
+.grid{
+    background-color:gray;
+    color: black;
+    border:1px solid black;
+    padding: 20px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);/*can you % px fr*/
+    column-gap: 20px;
+    border:1px solid grey;
+}
+.row-header{
+    text-transform: capitalize;
+    
+}
+.student-name{
+    color:red;
+}
+.table-header{
+    background-color:lightgray;
+}
+
+body{
+    background-color: rgb(163, 142, 110);
+    font-size:24px;
+}
+/* desktop first */
+@media(max-width:768px){ 
+    body{
+        background-color: red;
+    }
+}
+
+input[type="text"], input[type="email"], input[type="number"]{
+    width: 80%;
+    height: 25px;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.final_will_this_affect_child{
+    text-align: center;
+}
+.something{
+    font-size:1rem;
+}
